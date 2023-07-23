@@ -5,8 +5,9 @@ import Button from './Calculator/Button'
 import CalcProvider from "./Calculator/CalcContext";
 import React from 'react';
 import XavierPhoto from "./Xavierphoto";
-import {Content1, Content2} from "./content";
+import {Content1, Content2, Content3} from "./content";
 import {Button1, Button2, Button3} from './Buttons';
+
 
 export function HomePage() {
   return (
@@ -51,14 +52,15 @@ export const Calculator = () => {
   );
 };
 
+
+
 export function CommunityALI() {
   return (
-
+    
     <div className="CommunityALI">
       
       <Button2 />
-      
-      
+      <Content3 />
     </div>
   );
 
