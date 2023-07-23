@@ -1,13 +1,140 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.Homepage {
+  
+    min-height: 100vh; 
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .xavier_photo{
+  position: absolute;
+  max-width: 48%;
+  min-width: auto;
+  top: 0;
+  left: 0;
+  }
+
+ .content1{
+  position: absolute;
+  color: white;
+  background-color: #001E60;
+  padding: 1%;
+  max-width: 52%;
+  min-width: auto;
+  min-height: auto;
+  top: 0;
+  right: 0;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  }
+
+  .content2{
+    position: absolute;
+    color: white;
+    background-color: #001E60;
+    padding: 1%;
+    min-width: auto;
+    top: 510px;
+    left: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    }
+
+  .Button1 {
+    position: absolute;
+    border: 20px #001E60;;
+    top: 370px;
+    right: 850px;
+    background-color: #001E60;
+    border-radius: 20px;
+    border-width: 20px;
+    width: auto;
+    font-size: 20px;
+  }
+
+  .Button2 {
+    position: absolute;
+    border: 20px #001E60;
+    background-color: #001E60;
+    border-radius: 20px;
+    border-width: 20px;
+    width: auto;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+  }
+
+  .Button3 {
+    position: absolute;
+    border: 20px #001E60;;
+    top: 370px;
+    right: 700px;
+    background-color: #001E60;
+    border-radius: 20px;
+    border-width: 20px;
+    width: auto;
+    font-size: 20px;
+  }
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background: #0096C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .screen {
+    height: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .wrapper {
+    background: #f6f8f9;
+    width: 20rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+  }
+  
+  .buttonBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+  }
+  
+  .button {
+    background: #e9f0f4;
+    height: 3.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #242424;
+    border: none;
+    font-size: 1.5rem;
+  }
+  
+  .button:hover {
+    border: 2px dotted #242424;
+  }
+  
+  .equals {
+    background: #4bd086;;
+    grid-column: 3/5;
+  }
+  
+  .opt {
+    background: #f79505;
+  }
