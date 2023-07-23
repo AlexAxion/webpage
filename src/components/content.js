@@ -3,7 +3,7 @@ export const Content1 = () => {
     return (
       <div className="content1">
           <p>
-        	Hello, My name is Xavier Alexander Romero but most refer to me as Alex. I'm 21 years old and as of 2023 I’m a student at MJC currently working towards a computer science major. Reasoning for my major is as simple as it gets, I love coding. There’s something so satisfying about solving an issue with your code when your previous iterations made you want to pull your hair out. 
+        	Hello, My name is Xavier Alexander Romero but most refer to me as Alex. I'm 21 years old and as of 2023 I’m a student at MJC currently working towards a computer science major. Reasoning for my major is as simple as it gets, I love coding. There’s something so satisfying about solving an issue with your code when your previous iterations made you want to pull your hair out. I’ve had this satisfaction using C, C++, Assembly, Java, and Rust. My last language Rust has been a blast and a great substitute for C++. Some very recent languages I've been learning include CSS, HTML, and javascript in the form of react. 
 
           </p>
       </div>
