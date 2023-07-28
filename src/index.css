@@ -1,64 +1,64 @@
-.Homepage {
+body#Homepage{
+  min-height: 100vh; 
+  background: #0096C9;
   
-    min-height: 100vh; 
+}
+
+.Homepage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  
   }
 
-  .xavier_photo{
-  position: absolute;
-  max-width: 48%;
-  min-width: auto;
-  top: 0;
-  left: 0;
+.xavier_photo{
+  width: 50%;
+  height: 50%;
   }
 
  .content1{
-  position: absolute;
   color: white;
   background-color: #001E60;
   padding: 1%;
-  max-width: 52%;
-  min-width: auto;
-  min-height: auto;
-  top: 0;
-  right: 0;
+  width: 50%;
+  height: 20%;
   font-family:'Times New Roman', Times, serif;
   font-size: x-large;
   }
 
+
   .content2{
-    position: absolute;
     color: white;
     background-color: #001E60;
-    padding: 1%;
+    padding: 2mm;
     min-width: auto;
-    top: 510px;
-    left: 0;
     font-family:'Times New Roman', Times, serif;
     font-size: x-large;
     }
 
-    .content3{
-      position: absolute;
-      color: white;
-      background-color: #001E60;
-      padding: 1%;
-      min-width: auto;
-      top: 510px;
-      left: 0;
-      font-family:'Times New Roman', Times, serif;
-      font-size: x-large;
-      }
+  .content3{
+    position: absolute;
+    color: white;
+    background-color: #001E60;
+    padding: 1%;
+    width: 50%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    }
 
   .Button1 {
-    position: absolute;
     border: 20px #001E60;;
-    top: 370px;
-    right: 850px;
     background-color: #001E60;
     border-radius: 20px;
     border-width: 20px;
+    margin-top: 2mm;
+    margin-right: 2mm;
     width: auto;
     font-size: 20px;
+    cursor: pointer;
+    padding: 1%;
+
   }
 
   .Button2 {
@@ -71,82 +71,28 @@
     font-size: 20px;
     top: 0;
     left: 0;
+    cursor: pointer;
+    padding: 1%;
   }
 
   .Button3 {
-    position: absolute;
     border: 20px #001E60;;
-    top: 370px;
-    right: 700px;
     background-color: #001E60;
     border-radius: 20px;
     border-width: 20px;
-    width: auto;
+    width: auto; 
+    margin-top: 2mm;
     font-size: 20px;
-  }
-
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    height: 100vh;
-    background: #0096C9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .screen {
-    height: 4rem;
-    margin-bottom: 4rem;
-  }
-  
-  .wrapper {
-    background: #f6f8f9;
-    width: 20rem;
-    padding: 2rem;
-    margin-top: 4rem;
-    border-radius: 1rem;
-    box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
-  }
-  
-  .buttonBox {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .5rem;
-  }
-  
-  .button {
-    background: #e9f0f4;
-    height: 3.5rem;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
-    color: #242424;
-    border: none;
-    font-size: 1.5rem;
+    padding: 1%;
   }
+
+  .CommunityALI{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  background: #0096C9;
+  }
+
   
-  .button:hover {
-    border: 2px dotted #242424;
-  }
-  
-  .equals {
-    background: #4bd086;;
-    grid-column: 3/5;
-  }
-  
-  .opt {
-    background: #f79505;
-  }

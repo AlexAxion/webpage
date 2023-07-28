@@ -1,25 +1,27 @@
+import React from 'react';
 import Wrapper from "./Calculator/Wrapper";
 import Screen from "./Calculator/Screen";
 import ButtonBox from './Calculator/ButtonBox'
 import Button from './Calculator/Button'
 import CalcProvider from "./Calculator/CalcContext";
-import React from 'react';
-import XavierPhoto from "./Xavierphoto";
+import photo from './media/Xavier.JPEG';
 import {Content1, Content2, Content3} from "./content";
-import {Button1, Button2, Button3} from './Buttons';
+import {page_nav, YouTubeVideo} from './functions';
 
 
 export function HomePage() {
   return (
-
-    <div className="Homepage">
-      
-      <XavierPhoto></XavierPhoto>
-      <Content1></Content1>
-      <Content2></Content2>
-      <Button1></Button1>
-      <Button3></Button3>
+    <body id='Homepage'>
+    <div class='Homepage'>
+      <img class="xavier_photo" src={photo} alt="my" />      
+      <div className="content1"><Content1 /> </div>
+      <div className="content2"><Content2 /> </div>
+      <button className='Button1' onClick={(e) => page_nav('/Calculator')}>Calculator</button>
+      <button className='Button3' onClick={(e) => page_nav('/CommunityALI')}>CommunityALI</button>
+    
     </div>
+    </body>
+  
   );
 
 };
@@ -45,10 +47,11 @@ export const Calculator = () => {
             key={i}
           />
         ))}
-        <Button2 />
+        <button className='Button2' onClick={(e) => page_nav('/')}>Home</button>
       </ButtonBox>
     </Wrapper>
   </CalcProvider>
+  
   );
 };
 
@@ -58,9 +61,9 @@ export function CommunityALI() {
   return (
     
     <div className="CommunityALI">
+      <button className='Button2' onClick={(e) => page_nav('/')}>Home</button>
       
-      <Button2 />
-      <Content3 />
+      <YouTubeVideo />
     </div>
   );
 

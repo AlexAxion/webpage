@@ -13,9 +13,11 @@ const CalcProvider = ({ children }) => {
   }
 
   return (
+    <body id='calculator_page'>
     <CalcContext.Provider value={providerValue}>
       {children}
     </CalcContext.Provider>
+    </body>
   )
 }
 
