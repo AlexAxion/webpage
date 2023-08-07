@@ -4,16 +4,15 @@ import Screen from "./Calculator/Screen";
 import ButtonBox from './Calculator/ButtonBox'
 import Button from './Calculator/Button'
 import CalcProvider from "./Calculator/CalcContext";
-import photo from './media/Xavier.JPEG';
 import {Content1, Content2, Content3} from "./content";
-import {page_nav, YouTubeVideo} from './functions';
+import {page_nav, YouTubeVideo, ImageCarousel} from './functions';
 
 
 export function HomePage() {
   return (
     <body id='Homepage'>
     <div class='Homepage'>
-      <img class="xavier_photo" src={photo} alt="my" />      
+      <div className="xavier_photo"> <ImageCarousel/> </div> 
       <div className="content1"><Content1 /> </div>
       <div className="content2"><Content2 /> </div>
       <button className='Button1' onClick={(e) => page_nav('/Calculator')}>Calculator</button>
@@ -59,11 +58,11 @@ export const Calculator = () => {
 
 export function CommunityALI() {
   return (
-    
     <div className="CommunityALI">
+      <YouTubeVideo />
+      <div className="content3"><Content3 /> </div>
       <button className='Button2' onClick={(e) => page_nav('/')}>Home</button>
       
-      <YouTubeVideo />
     </div>
   );
 

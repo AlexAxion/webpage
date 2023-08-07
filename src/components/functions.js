@@ -1,5 +1,9 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
+import Image1 from './media/Xavier.JPEG';
+import Image2 from './media/image.png';
 
 const videoId = 'CkaNT8QOt9U';
 
@@ -19,6 +23,20 @@ export const YouTubeVideo = () => {
     <div>
       <YouTube videoId={videoId} opts={opts} />
     </div>
+  );
+};
+
+export const ImageCarousel = () => {
+  return (
+    <Carousel showArrows={true} infiniteLoop={true}>
+      <div>
+        <img src={Image1} alt="Image 1" />
+      </div>
+      <div>
+        <img src={Image2} alt="Image 2" />
+      </div>
+      {/* Add more <div> elements for additional images */}
+    </Carousel>
   );
 };
 

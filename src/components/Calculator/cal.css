@@ -7,7 +7,7 @@
 
 body#calculator_page {
   height: 100vh;
-  background: #0096C9;
+  background: orange;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -30,11 +30,12 @@ export const Content1 = () => {
 
  export const Content2 = () => {
     return (
-      <div className="content2">
+      <div>
           <p>
-        	As you’ve read one of my hobbies include coding but additionally I'm very much a fan of PC gaming. I love 
-          playing cod zombies, Overwatch, left for dead 2, and Starcraft. Gaming has been one of my passions since 
-          I was 7 years old and I don't regret it once.
+        	As you’ve read one of my hobbies include coding but additionally 
+          I'm very much a fan of PC gaming. I love playing cod zombies, 
+          Overwatch, left for dead 2, and Starcraft. Gaming has been one of 
+          my passions since I was 7 years old and I don't regret it once.
           </p>
       </div>
     );
@@ -42,10 +43,15 @@ export const Content1 = () => {
   
   export const Content3 = () => {
     return (
-      <div className="content3">
-          <p>
-        	We strive to grant every student with the opportunity to connect with their campus and local community. Whether it's for academic growth, career growth, or personal growth, this platform is made to accessibly reach your interests and beyond. We're committed to providing the most efficient methods and features because we've struggled to make the most of our educational journey.
-          </p>
+      <div>
+        <p>
+        We strive to grant every student with the opportunity to connect with 
+        their campus and local community. Whether it's for academic growth, 
+        career growth, or personal growth, this platform is made to accessibly 
+        reach your interests and beyond. We're committed to providing the most 
+        efficient methods and features because we've struggled to make the most 
+        of our educational journey.
+        </p>
       </div>
     );
   };

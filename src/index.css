@@ -1,6 +1,6 @@
 body#Homepage{
   min-height: 100vh; 
-  background: #0096C9;
+  background: black;
   
 }
 
@@ -8,20 +8,25 @@ body#Homepage{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   
   }
 
 .xavier_photo{
-  width: 50%;
-  height: 50%;
+  width:48%;
+  height: 48%;
+  margin: 1%;
+  border-radius: 1%;
   }
 
  .content1{
   color: white;
-  background-color: #001E60;
+  background-color: #BB0000;
+  border-radius: 1%;
   padding: 1%;
-  width: 50%;
+  margin: 1%;
+  width: 48%;
   height: 20%;
   font-family:'Times New Roman', Times, serif;
   font-size: x-large;
@@ -30,26 +35,19 @@ body#Homepage{
 
   .content2{
     color: white;
-    background-color: #001E60;
-    padding: 2mm;
-    min-width: auto;
-    font-family:'Times New Roman', Times, serif;
-    font-size: x-large;
-    }
-
-  .content3{
-    position: absolute;
-    color: white;
-    background-color: #001E60;
+    background-color: #BB0000;
     padding: 1%;
+    border-radius: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
     width: 50%;
     font-family:'Times New Roman', Times, serif;
     font-size: x-large;
     }
 
   .Button1 {
-    border: 20px #001E60;;
-    background-color: #001E60;
+    border: 20px orange;
+    background-color: orange;
     border-radius: 20px;
     border-width: 20px;
     margin-top: 2mm;
@@ -67,6 +65,8 @@ body#Homepage{
     background-color: #001E60;
     border-radius: 20px;
     border-width: 20px;
+    margin-top: 1%;
+    margin-left: 1%;
     width: auto;
     font-size: 20px;
     top: 0;
@@ -91,8 +91,18 @@ body#Homepage{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh; 
   background: #0096C9;
   }
 
-  
+  .content3{
+    color: white;
+    background-color: #001E60;
+    padding: 1%;
+    width: 50%;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+    }
