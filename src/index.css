@@ -14,36 +14,66 @@ body#Homepage{
   }
 
 .xavier_photo{
-  width:48%;
-  height: 48%;
+  width: 30%;
   margin: 1%;
   border-radius: 1%;
   }
 
  .content1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   color: white;
-  background-color: #BB0000;
+  background-color: #E0115F;
   border-radius: 1%;
   padding: 1%;
   margin: 1%;
-  width: 48%;
+  width: 60%;
   height: 20%;
   font-family:'Times New Roman', Times, serif;
   font-size: x-large;
   }
 
+  .Code_languages{
+  border-radius: 1%;
+  padding: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  width: 20%;
+  border-radius: 20px;
+  transition: 300ms;
+  }
+
+  .Code_languages:hover{
+  scale: 1.1;
+
+  }
 
   .content2{
     color: white;
-    background-color: #BB0000;
-    padding: 1%;
+    background-color: #0F52BA;
+    padding: 5px;
+    margin: 1%;
     border-radius: 1%;
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
+    border-radius: 20px;
+    width: 70%;
     font-family:'Times New Roman', Times, serif;
     font-size: x-large;
     }
+
+  .Nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0115F;
+    border-radius: 1%;
+    padding: 1%;
+    margin-left: 1%;
+    width: 25%;
+    border-radius: 20px;
+  }
 
   .Button1 {
     border: 20px orange;
@@ -55,8 +85,14 @@ body#Homepage{
     width: auto;
     font-size: 20px;
     cursor: pointer;
-    padding: 1%;
+    padding: 10px;
+    transition: 300ms;
+  }
 
+  .Button1:hover{
+    width: 80%;
+    font-size: 40px;
+    border-radius: 40px;
   }
 
   .Button2 {
@@ -73,18 +109,45 @@ body#Homepage{
     left: 0;
     cursor: pointer;
     padding: 1%;
+    
   }
 
   .Button3 {
-    border: 20px #001E60;;
+    border: 20px #001E60;
     background-color: #001E60;
     border-radius: 20px;
     border-width: 20px;
     width: auto; 
-    margin-top: 2mm;
+    margin-top: 6mm;
     font-size: 20px;
     cursor: pointer;
-    padding: 1%;
+    padding: 10px;
+    transition: 300ms;
+  }
+
+  .Button3:hover{
+    width: 110%;
+    font-size: 40px;
+    border-radius: 40px;
+  }
+
+  .Button4 {
+    border: 20px #001E60;
+    background-color: black;
+    border-radius: 20px;
+    border-width: 20px;
+    width: auto; 
+    margin-top: 6mm;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 300ms;
+  }
+
+  .Button4:hover{
+    width: 80%;
+    font-size: 40px;
+    border-radius: 40px;
   }
 
   .CommunityALI{
