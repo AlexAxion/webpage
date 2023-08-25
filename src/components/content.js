@@ -41,4 +41,15 @@ export const Content1 = () => {
       </div>
     );
   };
+
+  export const Content4 = () => {
+    return (
+      <div>
+        <p>Email: alexaxion115@gmail.com</p>
+        <p>Instagram: alexaxion115</p>
+        <p>Linkedin: Xavier Romero</p>
+        <p>Discord: AlexAxion</p>
+      </div>
+    );
+  };
   

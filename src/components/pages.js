@@ -4,7 +4,7 @@ import Screen from "./Calculator/Screen";
 import ButtonBox from './Calculator/ButtonBox'
 import Button from './Calculator/Button'
 import CalcProvider from "./Calculator/CalcContext";
-import {Content2, Content3} from "./content";
+import {Content2, Content3, Content4} from "./content";
 import {page_nav, YouTubeVideo, ImageCarousel} from './functions';
 import Rust from './media/Rust.jpg';
 import cpp from './media/CPP.jpg';
@@ -25,12 +25,16 @@ export function HomePage() {
       <img className='Code_languages' src={ASM} alt="1" />
       <img className='Code_languages' src={Reactsym} alt="1" />
       <div className="content2"><Content2 /> </div>
-      <div className='Nav'>
+      <div className="content4">
+      <div className="Email"><Content4 />
       <button className='Button1' onClick={(e) => page_nav('/Calculator')}>Calculator</button>
-      <button className='Button3' onClick={(e) => page_nav('/CommunityALI')}>CommunityALI</button>
+      <button className='Button3' onClick={(e) => page_nav('/CommunityALI')}>ComALI</button>
       <button className='Button4' onClick={(e) => page_nav('https://github.com/AlexAxion/webpage')}>Github</button>
+      
       </div>
       </div>
+      
+    </div>
     </div>
     </body>
   

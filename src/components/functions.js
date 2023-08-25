@@ -9,8 +9,8 @@ const videoId = 'CkaNT8QOt9U';
 
 export const YouTubeVideo = () => {
   const opts = {
-    height: '360', // Set the height of the video player
-    width: '640', // Set the width of the video player
+    height: '400', // Set the height of the video player
+    width: '700', // Set the width of the video player
     playerVars: {
       // Optional player settings (https://developers.google.com/youtube/player_parameters)
       autoplay: 0, // Auto-play the video (0: false, 1: true)
