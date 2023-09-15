@@ -54,20 +54,20 @@ body#Homepage{
   
   .content2{
     color: white;
-    background-color: #0F52BA;
-    padding: 5px;
+    background-color: #532235;
+    padding: 15px;
     margin: 1%;
     border-radius: 1%;
     border-radius: 20px;
     max-width: 303mm;
     max-height: auto;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: x-large;
+    font-size: clamp(14px,1.5vw,24px);
     }
     
     .content4{
     color: white;
-    background-color: #0F52BA;
+    background-color: #532235;
     padding: 5px;
     margin: 1%;
     border-radius: 1%;
@@ -75,14 +75,14 @@ body#Homepage{
     max-width: 303mm;
     max-height: auto;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: x-large;
+    font-size: clamp(14px,1.5vw,24px);
     }
 
 
 
   .Button1 {
-    border: 10px orange;
-    background-color: orange;
+    border: 10px #be1958;
+    background-color: #be1958;
     border-radius: 20px;
     width: auto;
     max-height: 10mm;
@@ -116,8 +116,8 @@ body#Homepage{
   }
 
   .Button3 {
-    border: 20px #001E60;
-    background-color: #001E60;
+    border: 20px #92204c;
+    background-color: #92204c;
     border-radius: 20px;
     max-height: 10mm;
     width: 30mm;
@@ -134,8 +134,8 @@ body#Homepage{
   }
 
   .Button4 {
-    border: 20px #001E60;
-    background-color: black;
+    border: 20px #be1958;
+    background-color: #be1958;
     border-radius: 20px;
     max-height: 10mm;
     width: 30mm;

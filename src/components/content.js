@@ -14,8 +14,8 @@ export const Content1 = () => {
           as follows, Rust, C++, Assembly, and React. My interest in coding stems 
           from my desire to create in which coding is my medium. The very site 
           you’re interacting with is written in react and I'm very proud of it. 
-          If you would like to see the src code click the button to your right called 
-          github I love sitting down any part of the day just to code as I love 
+          If you would like to see the src code click the button below near contacts called 
+          github. I love sitting down any part of the day just to code as I love 
           discovering what could be created. Out of all the languages I’ve described 
           I would have to say Rust is my favorite as you can code at a very low or high 
           level as you’d like. If you’d like to see other React projects click the button 
