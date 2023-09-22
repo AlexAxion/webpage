@@ -15,8 +15,9 @@ import Snowfall from 'react-snowfall';
 
 export function HomePage() {
   return (
+    
     <body id='Homepage'>
-    <Snowfall snowflakeCount={100} style={{ zIndex: 1000 }} />
+    <Snowfall className="snow" snowflakeCount={100} style={{ zIndex: 1000, position: 'fixed', }} />
     <div class='Homepage'>
       <div className="xavier_photo"> <ImageCarousel/> </div> 
       <div className="content1">
